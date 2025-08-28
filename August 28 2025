@@ -1,0 +1,14 @@
+def get_laptop_cost(laptops, budget):
+   
+    unique_desc = sorted(set(laptops), reverse=True)
+    
+    
+    if len(unique_desc) >= 2 and unique_desc[1] <= budget:
+        return unique_desc[1]
+    
+
+    for price in unique_desc:
+        if price <= budget:
+            return price
+    
+    return 0
