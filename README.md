@@ -4,4 +4,4 @@ A collection of Python coding challenges and problem-solving exercises to streng
 Attribution
 This repository contains my own solutions to Python Challenges. Problems prompts are based on the FreeCodeCamp curriculum,
 which is licensed under CC BY-SA 4.0.
-Unless otherwise noted, problem descriptions are summarized in my own wods, and all cdode soltuions are my original work.
+Unless otherwise noted, problem descriptions are summarized in my own words, and all code solutions are my original work.
