@@ -1,0 +1,16 @@
+def burn_candles(candles, leftovers_needed):
+    burnt = 0
+    leftover = 0
+    
+    while candles > 0:
+        # Burn all current candles
+        burnt += candles
+        leftover += candles
+        candles = 0
+        
+        # Recycle leftovers into new candles
+        new_candles = leftover // leftovers_needed
+        leftover = leftover % leftovers_needed
+        candles += new_candles
+    
+    return burnt
